@@ -18,6 +18,7 @@ public class UIFollowObj : MonoBehaviour {
 		while(canFollow)
 		{
 			Vector3 screenPos = Camera.main.WorldToScreenPoint(target.position);
+			print(screenPos);
      		transform.position = screenPos;
 			yield return null;
 		}

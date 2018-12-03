@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 384ace86ff49e264ca46ab1c118b2ecf
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Controls
+    100004: Drone
+    100006: Drone_01
+    100008: Geometry
+    100010: imagePlane1
+    100012: joint1
+    100014: joint10
+    100016: joint10_Ctrl
+    100018: joint10_Ctrl_Grp
+    100020: joint11
+    100022: joint11_Ctrl
+    100024: joint11_Ctrl_Grp
+    100026: joint1_Ctrl
+    100028: joint1_Ctrl_Grp
+    100030: joint2
+    100032: joint2_Ctrl
+    100034: joint2_Ctrl_Grp
+    100036: joint3
+    100038: joint3_Ctrl
+    100040: joint3_Ctrl_Grp
+    100042: joint4
+    100044: joint4_Ctrl
+    100046: joint4_Ctrl_Grp
+    100048: joint5
+    100050: joint5_Ctrl
+    100052: joint5_Ctrl_Grp
+    100054: joint6
+    100056: joint6_Ctrl
+    100058: joint6_Ctrl_Grp
+    100060: joint7
+    100062: joint7_Ctrl
+    100064: joint7_Ctrl_Grp
+    100066: joint8
+    100068: joint8_Ctrl
+    100070: joint8_Ctrl_Grp
+    100072: joint9
+    100074: joint9_Ctrl
+    100076: joint9_Ctrl_Grp
+    100078: Package
+    100080: Skeleton
+    400000: //RootNode
+    400002: Controls
+    400004: Drone
+    400006: Drone_01
+    400008: Geometry
+    400010: imagePlane1
+    400012: joint1
+    400014: joint10
+    400016: joint10_Ctrl
+    400018: joint10_Ctrl_Grp
+    400020: joint11
+    400022: joint11_Ctrl
+    400024: joint11_Ctrl_Grp
+    400026: joint1_Ctrl
+    400028: joint1_Ctrl_Grp
+    400030: joint2
+    400032: joint2_Ctrl
+    400034: joint2_Ctrl_Grp
+    400036: joint3
+    400038: joint3_Ctrl
+    400040: joint3_Ctrl_Grp
+    400042: joint4
+    400044: joint4_Ctrl
+    400046: joint4_Ctrl_Grp
+    400048: joint5
+    400050: joint5_Ctrl
+    400052: joint5_Ctrl_Grp
+    400054: joint6
+    400056: joint6_Ctrl
+    400058: joint6_Ctrl_Grp
+    400060: joint7
+    400062: joint7_Ctrl
+    400064: joint7_Ctrl_Grp
+    400066: joint8
+    400068: joint8_Ctrl
+    400070: joint8_Ctrl_Grp
+    400072: joint9
+    400074: joint9_Ctrl
+    400076: joint9_Ctrl_Grp
+    400078: Package
+    400080: Skeleton
+    2100000: lambert1
+    2300000: Package
+    3300000: Package
+    4300000: Package
+    4300002: Drone
+    7400000: BD_Flying
+    9500000: //RootNode
+    13700000: Drone
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BD_Flying
+      takeName: BD_Flying
+      firstFrame: 8
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
