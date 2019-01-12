@@ -5,7 +5,7 @@ using UnityEngine;
 public class DroneCamFollow : MonoBehaviour {
 
 	public Camera mainCamera;
-	public Transform obj;
+	//public Transform obj;
 
 	void Start()
 	{
@@ -14,7 +14,7 @@ public class DroneCamFollow : MonoBehaviour {
 
 	public void SetDroneToFollow()
 	{
-		mainCamera.GetComponent<CameraFollow>().objToFollow = obj;
+		mainCamera.GetComponent<CameraFollow>().objToFollow = transform;
 		mainCamera.GetComponent<CameraFollow>().StartFollow();
 	}
 

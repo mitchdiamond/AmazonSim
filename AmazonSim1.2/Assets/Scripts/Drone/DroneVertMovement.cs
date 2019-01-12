@@ -26,6 +26,7 @@ public class DroneVertMovement : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
+		print("entered collider");
 		droneData.atDest = true;
 
 		if(!other.GetComponent<DropspotData>().isWarehouse)
@@ -57,6 +58,7 @@ public class DroneVertMovement : MonoBehaviour {
 
 	IEnumerator DropOffPackage()
 	{
+		print("dropping off package");
 		yield return new WaitForSeconds(packageDropoffTime);
 		droneData.hasPackage = false;
 		Ascend();
