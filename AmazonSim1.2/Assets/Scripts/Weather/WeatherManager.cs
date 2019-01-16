@@ -24,8 +24,16 @@ public class WeatherManager : MonoBehaviour {
 			animParameters.Add(param.name);
 		}
 
-		StartCoroutine(ChooseWeather());
+		StartCoroutine(StartGameWait());
+		//StartCoroutine(ChooseWeather());
 
+	}
+
+	IEnumerator StartGameWait()
+	{
+		new WaitForSeconds(60);
+		StartCoroutine(ChooseWeather());
+		yield return null;
 	}
 
 	IEnumerator ChooseWeather()

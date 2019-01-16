@@ -13,4 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weatherName: Overcast
   icon: {fileID: 21300000, guid: 5c475cea867ef4e42a77189b76935330, type: 3}
-  particleSystem: {fileID: 0}
+  weatherParticle: {fileID: 0}
+  cloudsParticle: {fileID: 0}
+  weatherTimeMin: 60
+  weatherTimeMax: 180
+  weatherChance: 20
+  isOvercast: 1

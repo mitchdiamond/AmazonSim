@@ -13,4 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weatherName: Hail
   icon: {fileID: 21300000, guid: 0dfb1db516d41cb4a8ec1230d9f8bf1d, type: 3}
-  particleSystem: {fileID: 0}
+  weatherParticle: {fileID: 0}
+  cloudsParticle: {fileID: 0}
+  weatherTimeMin: 60
+  weatherTimeMax: 90
+  weatherChance: 9
+  isOvercast: 1

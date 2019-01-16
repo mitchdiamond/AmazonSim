@@ -14,3 +14,6 @@ MonoBehaviour:
   weatherName: Windy
   icon: {fileID: 21300000, guid: 6e4d436f3602ab441af1fbb8cb0dbe05, type: 3}
   particleSystem: {fileID: 0}
+  weatherTimeMin: 60
+  weatherTimeMax: 120
+  weatherChance: 20
