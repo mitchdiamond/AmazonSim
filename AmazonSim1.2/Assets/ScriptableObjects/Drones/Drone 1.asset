@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Drone 1
   m_EditorClassIdentifier: 
   maxFuel: 100
-  currentFuelLevel: 86.799805
+  currentFuelLevel: 100
   droneNumber: 0
   sO_Package: {fileID: 11400000, guid: 9c0fb4a19450be04ab53bc63a38a9122, type: 2}
   dronePrefab: {fileID: 1433092822580472, guid: 714eddd219100a44cb5737402a1812fd,

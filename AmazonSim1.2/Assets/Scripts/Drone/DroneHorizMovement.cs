@@ -28,8 +28,8 @@ public class DroneHorizMovement : MonoBehaviour {
 			NavMeshPath path = new NavMeshPath();
 			agent.CalculatePath(dest.position, path);
 
-			agent.speed = agentSpeed;
-			agent.isStopped = false;
+			//agent.speed = agentSpeed;
+			//agent.isStopped = false;
 			agent.path = path;
 
 			droneData.inMotion = true;
@@ -53,7 +53,7 @@ public class DroneHorizMovement : MonoBehaviour {
 				yield return null;
 			}
 
-			if (droneData.inMotion == false)
+			if (!droneData.inMotion)
 			{
 				print("stopped");
 			}
@@ -83,10 +83,26 @@ public class DroneHorizMovement : MonoBehaviour {
 		NavMeshPath path = new NavMeshPath();
 		agent.CalculatePath(droneData.droneManager.warehousePads[droneData.sO_Drone.droneNumber].position, path);
 		agent.speed = agentSpeed;
-		agent.isStopped = false;
+		//agent.isStopped = false;
 		agent.path = path;
 		droneData.inMotion = true;
 		StartCoroutine(CheckForPath(true));
+	}
+
+	public void StopDrone()
+	{
+		print("stopping drone");
+		agent.isStopped = true;
+		//agent.speed = 0;
+		//droneData.inMotion = false;
+	}
+
+	public void StartDrone()
+	{
+		print("starting drone");
+		agent.isStopped = false;
+		//agent.speed = agentSpeed;
+		//droneData.inMotion = true;
 	}
 
 }

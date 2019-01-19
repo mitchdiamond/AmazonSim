@@ -9,6 +9,8 @@ public class DroneFuel : MonoBehaviour {
 	private DroneData droneData;
 	private NavMeshAgent agent;
 
+	private DroneHorizMovement droneHorizMovement;
+
 
 	private bool useFuelRunning = false;
 
@@ -17,6 +19,7 @@ public class DroneFuel : MonoBehaviour {
 		displayUIImageFill = GetComponent<DisplayUIImageFill>();
 		droneData = GetComponent<DroneData>();
 		agent = GetComponent<NavMeshAgent>();
+		droneHorizMovement = GetComponent<DroneHorizMovement>();
 
 		displayUIImageFill.Display(droneData.sO_Drone.currentFuelLevel/100);
 	}
@@ -36,9 +39,7 @@ public class DroneFuel : MonoBehaviour {
 				if (droneData.sO_Drone.currentFuelLevel <= 0)
 				{
 					droneData.sO_Drone.currentFuelLevel = 0;
-					agent.isStopped = true;
-					agent.speed = 0;
-					droneData.inMotion = false;
+					droneHorizMovement.StopDrone();					
 				}
 
 				displayUIImageFill.Display(droneData.sO_Drone.currentFuelLevel/100);

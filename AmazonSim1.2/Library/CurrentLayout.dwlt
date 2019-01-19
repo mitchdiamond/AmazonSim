@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1887
     height: 931
-  m_MinSize: {x: 917, y: 392}
-  m_MaxSize: {x: 22012, y: 14042}
+  m_MinSize: {x: 915, y: 392}
+  m_MaxSize: {x: 22010, y: 14042}
   vertical: 0
-  controlID: 130
+  controlID: 112
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 392}
   m_MaxSize: {x: 18010, y: 14042}
   vertical: 1
-  controlID: 131
+  controlID: 113
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 271}
   m_MaxSize: {x: 18010, y: 10021}
   vertical: 0
-  controlID: 55
+  controlID: 114
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -280,8 +280,8 @@ MonoBehaviour:
     y: 0
     width: 450
     height: 931
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -442,7 +442,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: f065ffff1af7ffffeefbfffff0fbffff00000000
+    m_ExpandedIDs: ace5dfffe6e2e0ffe0ede0ff1cf0e0ff78e5f7ff46a8fbff42b6fbffd0dbfbff5eeefbff8000fcffba33fcff9a95fcff54d6fdff8cf4fdff6459feffa082feff9611ffff604fffffeefbfffff0fbffff0000000030500100d253010070760100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -493,14 +493,14 @@ MonoBehaviour:
     height: 602
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 25487.038250585065
+  lastFramingTime: 5645.5895871235525
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10, y: 40, z: 0}
+    m_Target: {x: 5.844185, y: 1.9000001, z: 8.283884}
     speed: 2
-    m_Value: {x: 10, y: 40, z: 0}
+    m_Value: {x: 5.844185, y: 1.9000001, z: 8.283884}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -528,13 +528,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.42930427, y: -0.0454727, z: 0.021699576, w: -0.90179694}
+    m_Target: {x: -0.24866746, y: -0.29574975, z: 0.08013348, w: -0.91890985}
     speed: 2
-    m_Value: {x: -0.42928743, y: -0.045470916, z: 0.021698724, w: -0.9017616}
+    m_Value: {x: -0.24865255, y: -0.29573202, z: 0.08012868, w: -0.9188548}
   m_Size:
-    m_Target: 345.32254
+    m_Target: 120.23807
     speed: 2
-    m_Value: 345.32254
+    m_Value: 120.23807
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -627,14 +627,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.616009
+    - e00: 0.55778897
       e01: 0
       e02: 0
-      e03: 155.35748
+      e03: 207.91394
       e10: 0
-      e11: 0.616009
+      e11: 0.55778897
       e12: 0
-      e13: 103.169624
+      e13: 102.015076
       e20: 0
       e21: 0
       e22: 1
@@ -710,20 +710,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Standard Assets/ParticleSystems/Prefabs
+    - Assets/Scripts/Camera
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Standard Assets/ParticleSystems/Prefabs
+  - Assets/Scripts/Camera
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Alexa\Documents\Github\AmazonSim\AmazonSim1.2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 119}
-    m_SelectedIDs: 00720100
-    m_LastClickedID: 94720
-    m_ExpandedIDs: 00000000ea0d0000560e0000f00f0000e61000001c1100006c110000ae1100009e1300003a140000fa710100fe71010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 90120000
+    m_LastClickedID: 4752
+    m_ExpandedIDs: 00000000f20d0000620e00007a0e0000960f0000ca0f0000321000004011000086110000d81100002612000048140000001500006615000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,7 +751,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea0d0000560e0000f00f0000e61000001c1100006c110000ae1100009e1300003a140000
+    m_ExpandedIDs: 00000000f20d0000620e00007a0e0000ca0f0000321000004011000086110000d8110000261200004814000000150000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -779,18 +779,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: e6260000c05200008c4e00009ea3020082a5eafff4490000645200008c0700009264000064d0020048d00200fab0f4ff44770000685f0000f24d0000c6320000000000001c5900007c5800005a610000
+    m_ExpandedInstanceIDs: e6260000c05200008c4e00009ea3020082a5eafff4490000645200008c0700009264000064d0020048d00200fab0f4ff44770000685f0000f24d0000c6320000000000001c5900007c5800005a610000ac590100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Prefabs
-      m_OriginalName: Prefabs
+      m_Name: UI_Master_Scene
+      m_OriginalName: UI_Master_Scene
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 94720
+      m_UserData: 5522
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
