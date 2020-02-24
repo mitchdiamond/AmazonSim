@@ -39,13 +39,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -91,7 +91,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -8106,7 +8106,7 @@ GameObject:
   - component: {fileID: 252046045}
   - component: {fileID: 252046043}
   m_Layer: 0
-  m_Name: Plane (7)
+  m_Name: Intersection_2
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9105,7 +9105,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 538423304}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.87370366
+  m_Size: 0.8737036
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12327,7 +12327,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 50041cebb5a008a4887756049dabdcdf, type: 2}
+  - {fileID: 2100000, guid: 8b739a29ffa27314ca4332d745331d18, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14339,7 +14339,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: 85456e55bf1c7f748961760d9ebd37cc, type: 2}
   - {fileID: 2100000, guid: 2444e1148ae62084eb07bdff30f432fa, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
-  - {fileID: 2100012, guid: 5ed809649058f0e409730a0ac660b45c, type: 3}
+  - {fileID: 2100000, guid: 635c0e3654006004fb46dc231561a5a4, type: 2}
   - {fileID: 2100000, guid: 757aba9d6801035489a817b4683dbd03, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -14440,7 +14440,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
   - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
-  - {fileID: 2100000, guid: 757aba9d6801035489a817b4683dbd03, type: 2}
+  - {fileID: 2100000, guid: 8b739a29ffa27314ca4332d745331d18, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18656,7 +18656,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: c01fa8ffd1b603b41bd5b8a0e0c64497, type: 2}
   - {fileID: 2100000, guid: 2444e1148ae62084eb07bdff30f432fa, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
-  - {fileID: 2100012, guid: 5ed809649058f0e409730a0ac660b45c, type: 3}
+  - {fileID: 2100000, guid: 706e2815363c8aa4fb2c025304393c56, type: 2}
   - {fileID: 2100000, guid: 757aba9d6801035489a817b4683dbd03, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -22852,10 +22852,10 @@ MeshRenderer:
   - {fileID: 2100000, guid: b48067f977b1fa348b48c27c3ba8ff5c, type: 2}
   - {fileID: 2100000, guid: 2444e1148ae62084eb07bdff30f432fa, type: 2}
   - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
-  - {fileID: 2100012, guid: 41c0a04b512f99248a2346895f6da909, type: 3}
+  - {fileID: 2100000, guid: 544cf9d3465944c429b60c42ab7a2b8e, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
   - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
-  - {fileID: 2100000, guid: 757aba9d6801035489a817b4683dbd03, type: 2}
+  - {fileID: 2100000, guid: cd907e69dd4e3104ebb4229b1ea1e17c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26173,7 +26173,7 @@ GameObject:
   - component: {fileID: 1137954192}
   - component: {fileID: 1137954190}
   m_Layer: 0
-  m_Name: Plane (2)
+  m_Name: Intersection_1
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32674,7 +32674,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: 5340f14d5497d25488a82578f8ae20fe, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
   - {fileID: 2100000, guid: 2de6af5d7bf6041408a7544302a82add, type: 2}
-  - {fileID: 2100010, guid: a70b6f6c4c719544fa77b202209e57a6, type: 3}
+  - {fileID: 2100000, guid: 544cf9d3465944c429b60c42ab7a2b8e, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
   - {fileID: 2100000, guid: 4ed28a44f8a542943984c6b108238329, type: 2}
   - {fileID: 2100000, guid: 757aba9d6801035489a817b4683dbd03, type: 2}
@@ -37282,10 +37282,10 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 8e708f19ee265f045a03351da6fbcb48, type: 2}
   - {fileID: 2100000, guid: 5340f14d5497d25488a82578f8ae20fe, type: 2}
-  - {fileID: 2100004, guid: cd9c4493e69eb0546958ed8df620e445, type: 3}
+  - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
   - {fileID: 2100000, guid: 2de6af5d7bf6041408a7544302a82add, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
-  - {fileID: 2100010, guid: cd9c4493e69eb0546958ed8df620e445, type: 3}
+  - {fileID: 2100000, guid: 757aba9d6801035489a817b4683dbd03, type: 2}
   - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
   - {fileID: 2100000, guid: 4ed28a44f8a542943984c6b108238329, type: 2}
@@ -42360,7 +42360,7 @@ GameObject:
   - component: {fileID: 1764274544}
   - component: {fileID: 1764274542}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Intersection
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46103,7 +46103,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: c8c6da4edd47eb8429ff7d20b184ed94, type: 2}
   - {fileID: 2100000, guid: 2444e1148ae62084eb07bdff30f432fa, type: 2}
   - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
-  - {fileID: 2100012, guid: 41c0a04b512f99248a2346895f6da909, type: 3}
+  - {fileID: 2100000, guid: 544cf9d3465944c429b60c42ab7a2b8e, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
   - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
   - {fileID: 2100000, guid: 757aba9d6801035489a817b4683dbd03, type: 2}
@@ -48331,7 +48331,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: b48067f977b1fa348b48c27c3ba8ff5c, type: 2}
   - {fileID: 2100000, guid: 2de6af5d7bf6041408a7544302a82add, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
-  - {fileID: 2100012, guid: 5ed809649058f0e409730a0ac660b45c, type: 3}
+  - {fileID: 2100000, guid: 635c0e3654006004fb46dc231561a5a4, type: 2}
   - {fileID: 2100000, guid: 635c0e3654006004fb46dc231561a5a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -51364,10 +51364,10 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: b15051f94e6540448ac0ae3d8085e167, type: 2}
   - {fileID: 2100000, guid: 5340f14d5497d25488a82578f8ae20fe, type: 2}
-  - {fileID: 2100004, guid: cd9c4493e69eb0546958ed8df620e445, type: 3}
+  - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
   - {fileID: 2100000, guid: 2de6af5d7bf6041408a7544302a82add, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
-  - {fileID: 2100010, guid: cd9c4493e69eb0546958ed8df620e445, type: 3}
+  - {fileID: 2100000, guid: 757aba9d6801035489a817b4683dbd03, type: 2}
   - {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
   - {fileID: 2100000, guid: 9258cf1e72a10a344b56cb017b4f9891, type: 2}
   - {fileID: 2100000, guid: 4ed28a44f8a542943984c6b108238329, type: 2}
