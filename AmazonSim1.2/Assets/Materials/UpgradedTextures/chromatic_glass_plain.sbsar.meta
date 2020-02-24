@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 3aeee99b7c427f24cbcdcb2ab8b12fdc
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: chromatic_glass_plain/chromatic_glass_plain
+    400000: chromatic_glass_plain/chromatic_glass_plain/Transform
+    2100000: mat.Chromatic Glass Plain
+    2300000: chromatic_glass_plain/chromatic_glass_plain/MeshRenderer
+    2800000: Chromatic Glass Plain_baseColor
+    2800002: Chromatic Glass Plain_normal
+    2800004: Chromatic Glass Plain_metallic
+    2800006: Chromatic Glass Plain_height
+    3300000: chromatic_glass_plain/chromatic_glass_plain/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: chromatic_glass_plain/chromatic_glass_plain/SphereCollider
+    100100000: chromatic_glass_plain
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 13
+  mGraphInstanceData:
+  - graphLabel: Chromatic Glass Plain
+    prototypeName: Chromatic Glass Plain
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://chromatic_glass_plain\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"3579477482\" type=\"8\" value=\"11,11\" />\n
+      \ <presetinput identifier=\"roughness\" uid=\"3220280072\" type=\"0\" value=\"0.751\"
+      />\n  <presetinput identifier=\"refraction\" uid=\"2767942166\" type=\"0\" value=\"1\"
+      />\n  <presetinput identifier=\"refraction_roughness\" uid=\"3220540449\" type=\"0\"
+      value=\"0.869\" />\n  <presetinput identifier=\"ior\" uid=\"2767942098\" type=\"0\"
+      value=\"2.27\" />\n  <presetinput identifier=\"chromatic_intensity\" uid=\"3209249854\"
+      type=\"0\" value=\"0.529\" />\n  <presetinput identifier=\"luminosity\" uid=\"3490104401\"
+      type=\"0\" value=\"0.67\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: refraction
+      alphaSource: refraction
+    - outputName: refractionRoughness
+      alphaSource: refractionRoughness
+    - outputName: invertedIOR
+      alphaSource: invertedIOR
+    textureParameters:
+    - textureName: Chromatic Glass Plain_glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_refraction
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_refractionRoughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Chromatic Glass Plain_invertedIOR
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: refraction
+      bLinear: 1
+    - outputName: refractionRoughness
+      bLinear: 1
+    - outputName: invertedIOR
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 3aeee99b7c427f24cbcdcb2ab8b12fdc, type: 3}
+    generatedTextures: []
