@@ -18,10 +18,8 @@ public class DroneCreator : MonoBehaviour {
 	{
 		//create new SO_Drone and set its values
 		SO_Drone newDrone = ScriptableObject.CreateInstance<SO_Drone>();
-		print(newDrone);
 		newDrone.droneNumber = DroneManager.instance.droneCounter + 1;
 		DroneManager.instance.droneCounter++;
-		print(newDrone.droneNumber);
 
 		//newDrone.droneType = droneType;
 		int prefabNum = 0;
@@ -73,8 +71,15 @@ public class DroneCreator : MonoBehaviour {
 		droneButtonManager.droneButtons.Add(thisDroneButton);
 
 		//activate drone status button
-		DroneStatusButtonManager.instance.ActivateButton(newDrone.droneNumber - 1);
-		DroneStatusButtonManager.instance.droneStatusButtons[newDrone.droneNumber - 1].GetComponent<DroneCamFollow>().objToFollow = newDroneObj.transform.GetChild(1);
+		RenderTexture rt = new RenderTexture(256, 256, 16, RenderTextureFormat.ARGB32);
+		newDroneObj.GetComponent<DroneData>().dronePOVCam.targetTexture = rt;
+		newDroneObj.GetComponent<DroneData>().droneStatusButton = DroneStatusButtonManager.instance.CreateButton(rt);
+		newDroneObj.GetComponent<DroneData>().droneStatusButton.GetComponent<DroneCamFollow>().mainCamera = mainCamera;
+		newDroneObj.GetComponent<DroneData>().droneStatusButton.GetComponent<DroneCamFollow>().objToFollow = newDroneObj.transform.GetChild(1);
+
+		//set up drone status popup
+
+
 
 	}
 }

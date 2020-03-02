@@ -262,6 +262,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1734388708024454
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4516867480772086}
+  - component: {fileID: 20728965554921636}
+  - component: {fileID: 124307832694879674}
+  - component: {fileID: 81332290501904208}
+  m_Layer: 0
+  m_Name: DronePOVCam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1798318468835870
 GameObject:
   m_ObjectHideFlags: 1
@@ -521,6 +539,19 @@ Transform:
   m_Father: {fileID: 4695145327905094}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4516867480772086
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734388708024454}
+  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalPosition: {x: -0, y: 0.29, z: 0.66}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4897795568937686}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
 --- !u!4 &4519607257896908
 Transform:
   m_ObjectHideFlags: 1
@@ -664,6 +695,7 @@ Transform:
   - {fileID: 4638055888353880}
   - {fileID: 4961371336545580}
   - {fileID: 4158005804914688}
+  - {fileID: 4516867480772086}
   m_Father: {fileID: 4977376084003804}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -716,7 +748,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1593254290923928}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -17.3, y: 24.63, z: -140.83}
+  m_LocalPosition: {x: -129.24197, y: 98.5421, z: -311.99518}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4519607257896908}
@@ -737,6 +769,42 @@ Transform:
   m_Father: {fileID: 4695145327905094}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20728965554921636
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734388708024454}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!23 &23938168757965582
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -792,7 +860,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 90
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &65209775134732604
 BoxCollider:
@@ -818,6 +886,13 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.9, y: 1.9, z: 2.9}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!81 &81332290501904208
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734388708024454}
+  m_Enabled: 0
 --- !u!95 &95178175584971044
 Animator:
   serializedVersion: 3
@@ -1096,16 +1171,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2a57c556f16f744ad46472e41f1b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sO_Drone: {fileID: 11400000, guid: 23a2ea26259289e44bf8a21126441364, type: 2}
+  sO_Drone: {fileID: 0}
   sO_Package: {fileID: 0}
   sO_Destination: {fileID: 0}
   droneMesh: {fileID: 4897795568937686}
-  inMotion: 0
+  dronePOVCam: {fileID: 20728965554921636}
   isDispatched: 0
   atDest: 0
   hasPackage: 0
   droneFuelUI: {fileID: 0}
   droneButton: {fileID: 0}
+  droneStatusButton: {fileID: 0}
   destAir: {fileID: 0}
   destGround: {fileID: 0}
 --- !u!114 &114738367428720340
@@ -1191,6 +1267,13 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!124 &124307832694879674
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734388708024454}
+  m_Enabled: 1
 --- !u!137 &137678525252765608
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

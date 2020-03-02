@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class DestinationMapButton : MonoBehaviour {
 
-	//public DroneManager droneManager;
-	//public DestinationManager destinationManager;
 	public DestinationButtonManager destinationButtonManager;
 
 	public SO_Destination sO_Destination;
