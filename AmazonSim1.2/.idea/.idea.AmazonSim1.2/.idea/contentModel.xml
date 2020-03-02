@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Mitch\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Mitch\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_AmazonSim1.2.1902341221.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Mitch\Documents\Spring 2020\Senior - Projects\AmazonSim\AmazonSim1.2" t="IncludeRecursive">
+      <e p="AmazonSim1.2.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Fx Explosion Pack" t="Include">
+          <e p="Script" t="Include">
+            <e p="DestroyEffect.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="Ornamental Flower Set" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Transparent-BumpSpecNoCull.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Mapbox" t="Include">
+            <e p="MapboxConfiguration.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Camera" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="FollowCamera.cs" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="GameData.cs" t="Include" />
+            <e p="WriteToCSVFile.cs" t="Include" />
+            <e p="WriteToTextFile.cs" t="Include" />
+          </e>
+          <e p="Drone" t="Include">
+            <e p="DroneAlertSystem.cs" t="Include" />
+            <e p="DroneCamFollow.cs" t="Include" />
+            <e p="DroneCrash.cs" t="Include" />
+            <e p="DroneCreator.cs" t="Include" />
+            <e p="DroneFuel.cs" t="Include" />
+            <e p="DroneHorizMovement.cs" t="Include" />
+            <e p="DroneVertMovement.cs" t="Include" />
+            <e p="DropOffPackage.cs" t="Include" />
+            <e p="PurchaseDrone.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="DestinationCreator.cs" t="Include" />
+            <e p="DestinationCreatorEditor.cs" t="Include" />
+            <e p="EventEditor.cs" t="Include" />
+            <e p="MapButtonAssigner.cs" t="Include" />
+            <e p="MapButtonAssignerEditor.cs" t="Include" />
+            <e p="PlayModeStateChangedExample.cs" t="Include" />
+          </e>
+          <e p="GameEvents" t="Include">
+            <e p="GameEvent.cs" t="Include" />
+            <e p="GameEventBehavior.cs" t="Include" />
+            <e p="GameEventListener.cs" t="Include" />
+          </e>
+          <e p="Input" t="Include">
+            <e p="SelectWithMouse.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="CanvasManager.cs" t="Include" />
+            <e p="DestinationManager.cs" t="Include" />
+            <e p="DroneManager.cs" t="Include" />
+            <e p="DroneStatusPopupManager.cs" t="Include" />
+            <e p="GameStateManager.cs" t="Include" />
+            <e p="PointManager.cs" t="Include" />
+            <e p="WeatherManager.cs" t="Include" />
+            <e p="WeatherManagerNoAnimator.cs" t="Include" />
+            <e p="WindManager.cs" t="Include" />
+          </e>
+          <e p="Scriptable Objects" t="Include">
+            <e p="SO_Destination.cs" t="Include" />
+            <e p="SO_Drone.cs" t="Include" />
+            <e p="SO_Package.cs" t="Include" />
+            <e p="SO_WeatherCondition.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="ColorChange.cs" t="Include" />
+            <e p="Highlight_On_Hover.cs" t="Include" />
+          </e>
+          <e p="SO Accessor" t="Include">
+            <e p="DestData.cs" t="Include" />
+            <e p="DroneData.cs" t="Include" />
+            <e p="DropspotData.cs" t="Include" />
+            <e p="PkgData.cs" t="Include" />
+          </e>
+          <e p="Tutorial" t="Include">
+            <e p="Tutorial.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="CalculateDistance.cs" t="Include" />
+            <e p="CalculateFuelConsumption.cs" t="Include" />
+            <e p="CharacterSelector.cs" t="Include" />
+            <e p="CursorManager.cs" t="Include" />
+            <e p="DestinationButton.cs" t="Include" />
+            <e p="DestinationButtonManager.cs" t="Include" />
+            <e p="DestinationMapButton.cs" t="Include" />
+            <e p="DispatchDrones.cs" t="Include" />
+            <e p="DisplayUIImage.cs" t="Include" />
+            <e p="DisplayUIImageFill.cs" t="Include" />
+            <e p="DisplayUIText.cs" t="Include" />
+            <e p="DroneButton.cs" t="Include" />
+            <e p="DroneButtonManager.cs" t="Include" />
+            <e p="DroneStatusButton.cs" t="Include" />
+            <e p="DroneStatusButtonManager.cs" t="Include" />
+            <e p="LoadLevel.cs" t="Include" />
+            <e p="MenuMethods.cs" t="Include" />
+            <e p="MouseOver.cs" t="Include" />
+            <e p="OnClickColors.cs" t="Include" />
+            <e p="PauseMenu.cs" t="Include" />
+            <e p="PointerOver.cs" t="Include" />
+            <e p="QuitGame.cs" t="Include" />
+            <e p="QuitToStart.cs" t="Include" />
+            <e p="ReloadLevel.cs" t="Include" />
+            <e p="SelectDestination.cs" t="Include" />
+            <e p="SelectDrone.cs" t="Include" />
+            <e p="Stats.cs" t="Include" />
+            <e p="UIAlertSystem.cs" t="Include" />
+            <e p="UIDevTools.cs" t="Include" />
+            <e p="UIFollowObj.cs" t="Include" />
+            <e p="WeatherCompass.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

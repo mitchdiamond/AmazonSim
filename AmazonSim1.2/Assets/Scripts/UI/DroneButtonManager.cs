@@ -10,6 +10,7 @@ public class DroneButtonManager : MonoBehaviour {
 	{
 		foreach (DroneButton button in droneButtons)
 		{
+			print(button.buttonNumber);
 			if(button.buttonNumber != droneButtonNumber)
 			{
 				button.GetComponent<OnClickColors>().OnOtherButtonClicked();

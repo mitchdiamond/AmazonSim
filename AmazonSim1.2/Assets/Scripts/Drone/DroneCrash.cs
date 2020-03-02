@@ -77,7 +77,7 @@ public class DroneCrash : MonoBehaviour {
         DroneManager.instance.drones.Remove(transform.parent.gameObject);
         Destroy(transform.parent.GetComponent<DroneData>().droneButton);
         Destroy(transform.parent.GetComponent<DroneData>().droneFuelUI);
-        DroneStatusButtonManager.instance.DeactivateButton(transform.parent.GetComponent<DroneData>().sO_Drone.droneNumber);
+        DroneStatusButtonManager.instance.DeleteButton(droneData.droneStatusButton);
         Destroy(transform.parent.gameObject);
     }
 

@@ -44,6 +44,7 @@ public class DroneVertMovement : MonoBehaviour {
 				droneData.atDest = true;
 				droneData.isDispatched = false;
 				transform.parent.GetComponent<DroneAlertSystem>().OnReturnedWareHouse();
+				droneData.droneButton.SetActive(true);
 				StartCoroutine(droneFuel.Refuel());
 			}
 		}
