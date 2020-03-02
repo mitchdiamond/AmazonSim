@@ -9049,7 +9049,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 538423304}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.87370366
+  m_Size: 0.8737038
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9510,7 +9510,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1236911043}
   m_HandleRect: {fileID: 1236911042}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -21021,6 +21021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 900593340}
   - component: {fileID: 900593341}
+  - component: {fileID: 900593342}
   m_Layer: 5
   m_Name: TutorialManager
   m_TagString: Untagged
@@ -21057,19 +21058,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf4dd2bf2bc61478f03eabf02f7979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialStrings:
-  - Welcome to the Amazon drone simulator!
-  - To get started, open the Menu in the bottom left corner.
-  - Select a drone, then a destination, then click Dispatch.
-  - You can move the camera by using the WASD keys or by moving your mouse to the
-    edge of the screen in the direction you'd like to go.
-  - You can also center the camera on a drone by clicking on the drone or by clicking
-    on one of the small buttons on the status bar in the bottom left corner.
-  - Enjoy!
+  fileName: test.txt
+  lines: []
   text: {fileID: 1813177497}
   textNum: 0
   nextButton: {fileID: 690618527}
   okayButton: {fileID: 40368377}
+--- !u!114 &900593342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900593339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321109f99304c784bb0ec31d771c78cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: test.txt
+  tutorialLines: []
 --- !u!1001 &904046184
 Prefab:
   m_ObjectHideFlags: 0

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e515215-3fa3-4028-bea8-fab5c948cda7" name="Default Changelist" comment="" />
@@ -12,7 +12,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial/Tutorial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIAlertSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TutorialText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEvents/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial/Tutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/test.txt" />
+        <option value="$PROJECT_DIR$/Assets/TutorialText.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1YaY7hRaMn3sDeKZHBlipfO1qBR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583182007720</updated>
       <workItem from="1583182011682" duration="136000" />
+      <workItem from="1583187311172" duration="3218000" />
     </task>
     <servers />
   </component>
@@ -74,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
