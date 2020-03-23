@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class DroneStatusButtonManager : MonoBehaviour {
 
 	public static DroneStatusButtonManager instance;
+	public GameObject statusButtonPrefab;
 
 	public List<GameObject> droneStatusButtons;
 
@@ -20,13 +22,19 @@ public class DroneStatusButtonManager : MonoBehaviour {
 		}
 	}
 
-	public void ActivateButton(int buttonNum)
+	public GameObject CreateButton(RenderTexture rt)
 	{
-		droneStatusButtons[buttonNum].GetComponent<CanvasGroup>().interactable = true;
+		GameObject newButton = Instantiate(statusButtonPrefab);
+		newButton.transform.SetParent(transform);
+		newButton.transform.localScale = new Vector3(1, 1, 1);
+		newButton.GetComponent<DroneStatusButton>().rt = rt;
+		droneStatusButtons.Add(newButton);
+		return newButton;
 	}
 
-	public void DeactivateButton(int buttonNum)
+	public void DeleteButton(GameObject button)
 	{
-		droneStatusButtons[buttonNum].GetComponent<CanvasGroup>().interactable = false;
+		droneStatusButtons.Remove(button);
+		Destroy(button);
 	}
 }

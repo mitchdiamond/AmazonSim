@@ -1,0 +1,10 @@
+Tutorial
+Testing.
+Testing dynamic sizing.
+Welcome to the Amazon drone simulator!
+To get started, open the Menu in the bottom left corner.
+Select a drone, then a destination, then click Dispatch.
+You can move the camera by using the WASD keys or by moving your mouse to the edge of the screen in the direction you'd like to go.
+You can also center the camera on a drone by clicking on the drone or by clicking on one of the small buttons on the status bar in the bottom left corner.
+end flag
+Enjoy!

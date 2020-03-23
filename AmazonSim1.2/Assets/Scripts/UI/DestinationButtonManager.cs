@@ -8,6 +8,20 @@ public class DestinationButtonManager : MonoBehaviour {
 
 	public DestinationButton lastButtonClicked;
 
+	public static DestinationButtonManager instance;
+
+	void Awake()
+	{
+		if (instance == null)
+		{
+			instance = this;
+		}
+		else if (instance != this)
+		{
+			Destroy(this);
+		}
+	}
+
 	public void OnButtonClicked(int destinationButtonNumber)
 	{
 		foreach (DestinationButton button in destinationButtons)

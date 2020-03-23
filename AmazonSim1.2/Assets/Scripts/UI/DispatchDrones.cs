@@ -32,6 +32,9 @@ public class DispatchDrones : MonoBehaviour {
 			DroneManager.instance.currentDrone.GetComponent<DroneAlertSystem>().OnLeftWarehouse();
 			droneData.StartDeliveryTimer();
 			droneData.GetComponentInChildren<DroneCrash>().StartCalcCrash();
+			droneData.droneButton.SetActive(false);
+
+			DestinationButtonManager.instance.lastButtonClicked.mapButton.SetActive(false);
 
 			canDispatchEvent.Invoke();
 		}
